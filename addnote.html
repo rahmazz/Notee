@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .master {
+            background-image: url(/img/main-background.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+        }
+
+
+        nav {
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 15px;
+            padding-left: 80px;
+            padding-right: 100px;
+        }
+
+        .name {
+            font-size: 40px;
+            color: #fff;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+
+        span {
+            color: #F1C40F;
+        }
+
+
+        nav ul li {
+            list-style-type: none;
+            display: inline;
+            padding: 10px 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #fff;
+            text-transform: capitalize;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        nav ul li a:hover {
+            color: #F1C40F;
+            transition: .4s;
+        }
+
+        .subscribebtn {
+            background-color: #F1C40F;
+            text-decoration: none;
+            color: #000;
+            border: 2px solid black;
+            font-weight: bolder;
+            padding: 10px 25px;
+            font-size: 20px;
+            transition: trasform .4s;
+
+        }
+
+        .subscribebtn:hover {
+            transform: scale(1.2);
+            background-color: transparent;
+            color: #fff;
+        }
+
+        body {
+            height: 100vh;
+            background-image: url(./img/main-background.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        /* start services style  */
+
+        h1 {
+            font-size: 50px;
+            font-weight: bolder;
+            color: #fff;
+            margin-top: 50px;
+        }
+
+        .services {
+            width: 100%;
+            padding: 100px 0px;
+        }
+
+        .title h2 {
+            color: #000;
+            font-size: 75px;
+            width: 1130px;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 200px;
+            min-width: 335px;
+        }
+
+
+        .card {
+            height: 200px;
+            width: 300px;
+            padding: 10px 35px;
+            background: #F8F9F9;
+            border-radius: 20px;
+            margin: 15px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+
+
+
+        h5 {
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+
+
+        .pra p {
+            color: #9098C7;
+            font-size: 16px;
+            line-height: 15px;
+            margin-bottom: 25px;
+        }
+
+
+
+        a.button {
+            background-color: #F1C40F;
+            text-decoration: none;
+            color: black;
+            border-radius: 30px;
+            border: 2px solid transparent;
+            font-weight: bolder;
+            padding: 9px 22px;
+            /* font-size: 20px; */
+            transition: .4s;
+        }
+
+
+        a.button:hover {
+            background-color: transparent;
+            border: 2px solid #000;
+            cursor: pointer;
+        }
+
+        /* end services style  */
+
+        h1 {
+            text-align: center;
+            color: #D4DAE0;
+        }
+
+        textarea {
+            width: 350px;
+            max-width: 350px;
+            height: 100px;
+            max-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            padding: 15px;
+            margin-top: 20px;
+            background-color: rgba(14, 16, 18, 0.5);
+            border-radius: 20px;
+            border: 2px solid transparent;
+
+        }
+
+        ::placeholder {
+            color: #fff;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+
+        button {
+            width: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            font-size: 27px;
+            font-weight: bolder;
+            background-color: rgba(14, 16, 18, 0.5);
+            color: aliceblue;
+            border-color: #D4DAE0;
+            padding: 10px;
+            border-radius: 30px;
+            border: 2px solid transparent;
+
+        }
+
+        button:hover {
+            background-color: #F1C40F;
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="master">
+        <nav>
+            <h2 class="name">NOT<span>EE</span></h2>
+            <ul>
+                <li><a href="/index2.html">Home</a></li>
+                <li><a href="/index2.html#about">About Us</a></li>
+                <li><a href="/index2.html#contact">Contact Us</a></li>
+            </ul>
+            <a href="./index2.html" class="subscribebtn">Logout</a>
+
+        </nav>
+        <hr class="hr">
+
+        <!-- start services section -->
+        <h1>Your Notes</h1>
+        <div class="box">
+            <div class="card">
+                <h5>Rahma</h5>
+                <div class="pra">
+                    <p>
+                        To be yourself in a world that is constantly trying to make you something else is the greatest
+                        accomplishment.</p>
+
+                    <p style="text-align:center;">
+                        <a class="button" href="#" target="_blank">Details </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="card">
+                    <h5>Rahma</h5>
+                    <div class="pra">
+                        <p>
+                            To be yourself in a world that is constantly trying to make you something else is the
+                            greatest accomplishment.</p>
+
+                        <p style="text-align:center;">
+                            <a class="button" href="#" target="_blank">Detail </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5>Rahma</h5>
+                    <div class="pra">
+                        <p>
+                            Be who you are and say what you feel, because those who mind don't matter, and those who
+                            matter don't mind.</p>
+
+                        <p style="text-align:center;">
+                            <a class="button" href="#">Detail </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5>Rahma</h5>
+                    <div class="pra">
+                        <p>
+                            Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only
+                            love can do that BTW.
+                        <pre></pre>
+                        </p>
+
+                        <p>
+                            <a class="button" href="#">Details </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end services section -->
+
+        <textarea type="text" placeholder="Enter your Note" size="50" required></textarea>
+        <button>Add New</button>
+
+</body>
+
+</html>
